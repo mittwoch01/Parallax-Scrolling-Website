@@ -6,3 +6,5 @@
 
 // 글자 사이의 간격 : letter-spacing
 // 단어 사이의 간격 : word-spacing
+
+// 공백 처리 방법 : white-space
