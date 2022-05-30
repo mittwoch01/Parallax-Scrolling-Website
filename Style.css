@@ -59,6 +59,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 section::before{
     content: '';
@@ -86,11 +87,12 @@ section img#mountains_front{
 }
 #text{
     position: absolute; 
+    right: -350px;
     color: #fff;
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9;
-}
+} 
 #btn{
     text-decoration: none; 
     padding: 8px 30px;
